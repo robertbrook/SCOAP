@@ -1,267 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
-</script>
-  <script src="./js/bootstrap.min.js" type="text/javascript">
-</script>
-<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-  <link rel="stylesheet" type="text/css" media="screen" href="./css/bootstrap.min.css">
-  <style>
-      @media (max-width: 980px) { .twtr-widget{display: none;} }
-      body {padding:40px 20px;}
-      a.label:hover{color:white;}
-    </style>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+  
   <title>House of Commons - Justice Committee - Minutes of Evidence</title>
 </head>
 
-<body>
-    
-<div class="container">
+<body>  
+<div data-role="page" id="evidence" data-title="Justice Committee - Minutes of Evidence" data-dom-cache="true">
 
-<div class="row">
-    <div class="span4">
-  <h2>Justice Committee</h2>
+<div data-role="header" data-position="inline">
 
-  <h1>Joint Enterprise</h1>  
-<p>
+    <h1>Joint Enterprise</h1>  
+   
+
+<h2>Justice Committee</h2>
+
+<h3>
     <strong>Oral Evidence</strong> taken before the Justice Committee
-on <a href="http://services.parliament.uk/calendar/#!/calendar/Commons/SelectCommittee/2011/10/25/events.html">Tuesday 25 October 2011</a></p>
+on Tuesday 25 October 2011</h3>
 
 
-<h2>Members present</h2>
-
-
-
-<h4>Sir Alan Beith (in the Chair)</h4>	
-<p>
-Biography <a href="http://www.parliament.uk/biographies/alan-beith/25716">Parliament</a> <a href="http://www.theyworkforyou.com/mp/alan_beith/berwick-upon-tweed">TheyWorkForYou</a></p>
-
-<h4>Mr Elfyn Llwyd</h4>
-<p>
-Biography <a href="http://www.parliament.uk/biographies/elfyn-llwyd/25418">Parliament</a> <a href="http://www.theyworkforyou.com/mp/elfyn_llwyd/dwyfor_meirionnydd">TheyWorkForYou</a></p>
-
-<h4>Mr Robert Buckland</h4>
-<p>
-Biography <a href="">Parliament</a> <a href="">TheyWorkForYou</a></p>
-<p>
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 4,
-  interval: 30000,
-  width: 'auto',
-  height: 300,
-  theme: {
-    shell: {
-      background: '#dddddd',
-      color: '#333333'
-    },
-    tweets: {
-      background: '#ffffff',
-      color: '#333333',
-      links: '#0000ff'
-    }
-  },
-  features: {
-    scrollbar: true,
-    loop: false,
-    live: true,
-    behavior: 'all'
-  }
-}).render().setUser('RobertBuckland').start();
-</script>
-	</p>
-<h4>Yasmin Qureshi</h4>
-<p>
-Biography <a href="">Parliament</a> <a href="">TheyWorkForYou</a>
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 4,
-  interval: 30000,
-  width: 'auto',
-  height: 300,
-  theme: {
-    shell: {
-      background: '#dddddd',
-      color: '#333333'
-    },
-    tweets: {
-      background: '#ffffff',
-      color: '#333333',
-      links: '#0000ff'
-    }
-  },
-  features: {
-    scrollbar: true,
-    loop: false,
-    live: true,
-    behavior: 'all'
-  }
-}).render().setUser('YasminQureshiMP').start();
-</script>
-</p>
-<h4>Jeremy Corbyn</h4>
-<p>	
-Biography <a href="">Parliament</a> <a href="">TheyWorkForYou</a>
-
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 4,
-  interval: 30000,
-  width: 'auto',
-  height: 300,
-  theme: {
-    shell: {
-      background: '#dddddd',
-      color: '#333333'
-    },
-    tweets: {
-      background: '#ffffff',
-      color: '#333333',
-      links: '#0000ff'
-    }
-  },
-  features: {
-    scrollbar: true,
-    loop: false,
-    live: true,
-    behavior: 'all'
-  }
-}).render().setUser('JeremyCorbyn').start();
-</script>
-</p>
-<h4>Elizabeth Truss</h4>
-<p>
-Biography <a href="">Parliament</a> <a href="">TheyWorkForYou</a>
-
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 4,
-  interval: 30000,
-  width: 'auto',
-  height: 300,
-  theme: {
-    shell: {
-      background: '#dddddd',
-      color: '#333333'
-    },
-    tweets: {
-      background: '#ffffff',
-      color: '#333333',
-      links: '#0000ff'
-    }
-  },
-  features: {
-    scrollbar: true,
-    loop: false,
-    live: true,
-    behavior: 'all'
-  }
-}).render().setUser('TrussLiz').start();
-</script>
-</p>
-
-<h4>Ben Gummer</h4>	
-<p>
-Biography <a href="">Parliament</a> <a href="">TheyWorkForYou</a>
-
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 4,
-  interval: 30000,
-  width: 'auto',
-  height: 300,
-  theme: {
-    shell: {
-      background: '#dddddd',
-      color: '#333333'
-    },
-    tweets: {
-      background: '#ffffff',
-      color: '#333333',
-      links: '#0000ff'
-    }
-  },
-  features: {
-    scrollbar: true,
-    loop: false,
-    live: true,
-    behavior: 'all'
-  }
-}).render().setUser('ben4ipswich').start();
-</script>
-</p>
-
-
-<p>
-<strong>Witness</strong> Keir Starmer QC, <a href="http://www.cps.gov.uk/about/dpp.html">Director of Public Prosecutions</a>, gave evidence.
-<br>
-<strong>Question Numbers</strong>
-<a class="label" href="#Q1">Q1</a> to <a class="label" href="#Q39">Q39</a>
-</p>
-
-<p>
-<strong>Witnesses</strong> Jean Taylor and Christine Jones, <a href="http://www.familiesfightingforjustice.org/">Families Fighting for Justice</a>, gave evidence.
-<br>
-<strong>Question Numbers</strong>
-<a class="label" href="#Q40">Q40</a> to <a class="label" href="#Q70">Q70</a>
-</p>
-
-<p>
-<strong>Witnesses</strong> Dr Andrew Green and Gloria Morrison, <a href="http://www.jointenterprise.co/">Joint Enterprise: Not Guilty by Association</a> (JENGbA), gave evidence.
-<br>
-<strong>Question Numbers</strong>
-<a class="label" href="#Q71">Q71</a> to <a class="label" href="#Q104">Q104</a>
-</p>
-
-<p>
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 4,
-  interval: 30000,
-  width: 'auto',
-  height: 300,
-  theme: {
-    shell: {
-      background: '#dddddd',
-      color: '#333333'
-    },
-    tweets: {
-      background: '#ffffff',
-      color: '#333333',
-      links: '#0000ff'
-    }
-  },
-  features: {
-    scrollbar: true,
-    loop: false,
-    live: true,
-    behavior: 'all'
-  }
-}).render().setUser('JENGbA').start();
-</script>
-</p>
-
+<a href="#members" data-role="button" data-icon="info">Members present</a>
     </div>
     
     
-    <div class="span8">  
+<div data-role="content">
 
 
   <p>
@@ -792,12 +560,109 @@ Welcome, Mr Starmer. We are glad to have you with us this morning to discuss mai
   <p><em><strong>Dr Green</strong></em> Thank you for hearing us.
   
   </p>
-  <hr>
-    <p>&copy; UK Parliament</p>
 
   </div>
+  
+  	<div data-role="footer">    <h4>&copy; UK Parliament</h4>
+</div> 
+
   </div>
-  </div>
+  
+  <div data-role="page" id="members" data-title="Members Present" data-dom-cache="true">
+
+	<div data-role="header">
+		<h1>Members</h1>
+		<a href="#evidence" data-icon="home" data-role="button">Evidence taken</a>
+
+	</div><!-- /header -->
+
+	<div data-role="content" class="ui-grid-a">	
+	<div class="ui-block-a">
+
+<h2>Witnesses</h2>
+
+<p>
+<strong>Witness</strong> Keir Starmer QC, <a href="http://www.cps.gov.uk/about/dpp.html">Director of Public Prosecutions</a>, gave evidence.
+<br>
+<strong>Question Numbers</strong>
+<a class="label" href="#Q1">Q1</a> to <a class="label" href="#Q39">Q39</a>
+</p>
+
+<p>
+<strong>Witnesses</strong> Jean Taylor and Christine Jones, <a href="http://www.familiesfightingforjustice.org/">Families Fighting for Justice</a>, gave evidence.
+<br>
+<strong>Question Numbers</strong>
+<a class="label" href="#Q40">Q40</a> to <a class="label" href="#Q70">Q70</a>
+</p>
+
+<p>
+<strong>Witnesses</strong> Dr Andrew Green and Gloria Morrison, <a href="http://www.jointenterprise.co/">Joint Enterprise: Not Guilty by Association</a> (JENGbA), gave evidence.
+<br>
+<strong>Question Numbers</strong>
+<a class="label" href="#Q71">Q71</a> to <a class="label" href="#Q104">Q104</a>
+</p>	
+</div>
+		<div class="ui-block-b">
+		<h2>Members present</h2>
+<div data-role="collapsible-set">
+
+	<div data-role="collapsible">
+
+
+<h4>Sir Alan Beith (in the Chair)</h4>	
+<p>
+Biography <a href="http://www.parliament.uk/biographies/alan-beith/25716">Parliament</a> <a href="http://www.theyworkforyou.com/mp/alan_beith/berwick-upon-tweed">TheyWorkForYou</a></p>
+</div>
+	<div data-role="collapsible">
+
+<h4>Mr Elfyn Llwyd</h4>
+<p>
+Biography <a href="http://www.parliament.uk/biographies/elfyn-llwyd/25418">Parliament</a> <a href="http://www.theyworkforyou.com/mp/elfyn_llwyd/dwyfor_meirionnydd">TheyWorkForYou</a></p>
+</div>
+	<div data-role="collapsible">
+<h4>Mr Robert Buckland</h4>
+<p>
+Biography <a href="">Parliament</a> <a href="">TheyWorkForYou</a></p>
+</div>
+	<div data-role="collapsible">
+<h4>Yasmin Qureshi</h4>
+<p>
+Biography <a href="">Parliament</a> <a href="">TheyWorkForYou</a>
+
+</p>
+</div>
+	<div data-role="collapsible">
+<h4>Jeremy Corbyn</h4>
+<p>	
+Biography <a href="">Parliament</a> <a href="">TheyWorkForYou</a>
+
+</p>
+</div>
+	<div data-role="collapsible">
+<h4>Elizabeth Truss</h4>
+<p>
+Biography <a href="">Parliament</a> <a href="">TheyWorkForYou</a>
+
+</p>
+</div>
+	<div data-role="collapsible">
+<h4>Ben Gummer</h4>	
+<p>
+Biography <a href="">Parliament</a> <a href="">TheyWorkForYou</a>
+</p>
+</div>
+
+</div>
+</div>
+
+
+
+			
+	</div><!-- /content -->
+
+  	<div data-role="footer">    <h4>&copy; UK Parliament</h4>
+
+</div><!-- /page -->
   
 </body>
 </html>
